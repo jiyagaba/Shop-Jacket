@@ -1,0 +1,113 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Gilroy';
+}
+html,body
+{
+    height:100%;
+    width:100%;
+}
+#main
+{
+    height:100%;
+    width:100%;
+    background-color:white;
+}
+#nav
+{
+    height:100px;
+    width:100%;
+    font-weight: 600;
+    display:flex;
+    justify-content: flex-end;
+    gap:20px;
+    padding:10px 30px;
+}
+#nav h4{
+    font-size: 20px;
+}
+#nav i
+{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 40px;   
+}
+#center
+{
+    
+    width:100%;
+    padding-top: 40px;
+    
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+#center h1
+{
+    font-size: 80px;
+    font-weight: 500px;
+    line-height: 85px;
+}
+#centerin
+{
+    height:140px;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 50px;
+}
+#centerin p
+{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+#right
+{
+    width:20%;
+}
+.elem
+{
+    
+    margin:4px;
+    padding:6px 0; 
+    border-top: 2px solid black; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.elem i
+{
+    font-size:  20px;
+    font-weight: 500;
+    opacity:0;
+}
+.elem a
+{
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.elem:hover i
+{
+    opacity:1;
+}
+.elem:hover a
+{
+    text-decoration: underline ;
+}
+#bottom
+{
+    height:1000px;
+    width:100% ;
+    background-color:red ;
+    background-image: url(https://i.pinimg.com/originals/14/df/ee/14dfee0a2df037bdaf289c78cb6d6bed.jpg);
+    background-size:cover ;
+}
